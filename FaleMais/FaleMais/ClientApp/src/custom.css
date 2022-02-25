@@ -1,0 +1,93 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.infoSection {
+    background: rgb(95,128,200);
+    background: linear-gradient(90deg, rgba(95,128,200,1) 0%, rgba(76,113,194,1) 35%, rgba(27,110,194,1) 100%);
+    border-radius: 4px;
+    margin: -60px 10px 10px 0px;
+    z-index: 1;
+    width: 100%;
+    color: white;
+    padding: 20px 60px 20px 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .infoSection {
+        margin: -60px 0px 0px 0px;
+    }
+}
+
+.contentSection{
+    padding: 60px 10px 10px 10px;
+}
+
+.contentSection span {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(95,128,200);
+}
+
+.contentSection p {
+    font-size: 26px;
+    line-height: 28px;
+    margin-top: 5px;
+}
+
+.contentSection p+p {
+    font-size: 18px;
+    font-weight:300;
+}
+
+.imagesSection{
+    margin: 80px 250px 10px 10px;
+}
+
+.imagesSection div {
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 230px;
+    z-index: 1;
+    margin-top: -0px;
+    background-image: url("http://futurasm.com.br/site/wp-content/uploads/2020/05/4649.jpg");
+}
+
+.imagesSection div + div {
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 230px;
+    z-index: -1;
+    margin: -330px 10px 0px 180px;
+    background-image: url("https://conceitoprofissional.com/wp-content/uploads/2021/02/h.jpg");
+}
+
+@media (max-width: 768px) {
+    .imagesSection{
+        display: none;
+    }
+    .imagesSection div {
+        display: none;
+    }
+    .imagesSection div+div {
+        display: none;
+    }
+}

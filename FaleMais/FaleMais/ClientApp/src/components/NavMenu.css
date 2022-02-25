@@ -1,0 +1,53 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+#navMenu, #navMenu__White {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    transition: 0.5s ease-in;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+#navMenu a{
+    color: white;
+}
+
+#navMenu a.dropdown-item {
+    color: #212529;
+}
+
+#navMenu #btnLogin {
+    color: white;
+    background: #6c757d;
+    border-color: #6c757d;
+    margin-right: 4px;
+}
+
+#navBrand {
+    border-bottom: solid;
+    border-bottom-right-radius: 8px;
+}
+
+#navMenu__White {
+    background-color: white;
+    box-shadow: 0 8px 6px -6px #54595F;
+}
