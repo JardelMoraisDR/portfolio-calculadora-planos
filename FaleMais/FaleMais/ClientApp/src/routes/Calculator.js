@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Button } from 'react-bootstrap';
+﻿import React, { Component } from 'react';
+import { Button, Form, Select, Label } from 'react-bootstrap';
 import '../../src/custom.css'
 
 export class Calculator extends Component {
@@ -7,27 +7,73 @@ export class Calculator extends Component {
 
     render() {
         return (
-            <div>
-                <section className="infoSection d-flex flex-column">
-                    <h3>Planos especiais para a sua empresa</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt metus...</p>
-                </section>
+            <div className="container parentDiv">
 
-                <div className="d-flex justify-content-between">
-                    <section className="d-flex flex-column contentSection">
-                        <span>NOSSA COBERTURA</span>
-                        <p>Disponibilidade em todo <br />
-                            territ�rio nacional.</p>
+                <div className="row">
+                    <section className="col-6 descriptionSection">
+                        <h2 className="custom-bar">Quer reduzir custos com ligações?</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br />
                             elit. Vivamus dictum a nisl sed tristique.<br />
                             Orci varius natoque penatibus et magnis dis parturient<br />
                             montes, nascetur ridiculus mus. Vestibulum<br />
                             sagittis porttitor nulla.</p>
-                        <Button id="btnMain" variant="outline-secondary">Saiba mais</Button>
                     </section>
-                    <section className="imagesSection">
-                        <div></div>
-                        <div></div>
+                    <section className="col-6 formSection">
+                        <h2 className="custom-bar">Descubra o quanto você pode economizar!</h2>
+
+                        <Form>
+
+                            <div className="form-group row mt-3">
+
+                                <div className="form-group col-md-6">
+                                    <Form.Label htmlFor="inputOrigin">Origem</Form.Label>
+                                    <Form.Select id="inputOrigin" className="form-control">
+                                        <option>11 - São Paulo</option>
+                                        <option value="21">21 - Rio de Janeiro</option>
+                                    </Form.Select>
+                                </div>
+
+                                <div className="form-group col-md-6">
+                                    <Form.Label htmlFor="inputFate">Destino</Form.Label>
+                                    <Form.Select id="inputFate" className="form-control">
+                                        <option>11 - São Paulo</option>
+                                        <option value="21">21 - Rio de Janeiro</option>
+                                    </Form.Select>
+                                </div>
+                              
+                            </div>
+
+                            <div className="form-group row">
+
+                                <div className="form-group col-md-12">
+                                    <Form.Label htmlFor="inputOrigin">Tempo em minutos</Form.Label>
+                                    <Form.Select id="inputOrigin" className="form-control">
+                                        <option>11 - São Paulo</option>
+                                        <option value="21">21 - Rio de Janeiro</option>
+                                    </Form.Select>
+                                </div>
+
+                            </div>
+
+                            <div className="form-group row">
+
+                                <div className="form-group col-md-12">
+                                    <Form.Label htmlFor="inputOrigin">Planos</Form.Label>
+                                    <Form.Select id="inputOrigin" className="form-control">
+                                        <option>FaleMais 30</option>
+                                        <option value="1">FaleMais 60</option>
+                                        <option value="1">FaleMais 120</option>
+                                    </Form.Select>
+                                </div>
+
+                            </div>
+
+                            <div className="form-group row justify-content-center">
+                                <Button className="btn-calc" variant="primary">Calcular</Button>
+                            </div>
+
+                        </Form>
+
                     </section>
                 </div>
 

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+﻿import React, { Component } from 'react';
 import { Button } from 'react-bootstrap';
 import '../../src/custom.css'
 
@@ -17,7 +17,7 @@ export class Home extends Component {
                     <section className="d-flex flex-column contentSection">
                         <span>NOSSA COBERTURA</span>
                         <p>Disponibilidade em todo <br />
-                            territ�rio nacional.</p>
+                            território nacional.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br />
                             elit. Vivamus dictum a nisl sed tristique.<br />
                             Orci varius natoque penatibus et magnis dis parturient<br />

@@ -1,4 +1,4 @@
-﻿#heroHome {
+﻿#heroHome, #heroSimple {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://ak.picdn.net/shutterstock/videos/7359769/thumb/9.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -8,7 +8,18 @@
     height: 400px;
 }
 
-#heroHome Form h1{
+#heroSimple {
+    padding-top: 150px;
+    padding-bottom: 30px;
+    height: 400px;
+}
+
+#heroHome Form h1 {
+    color: white;
+    line-height: 28px;
+}
+
+#heroSimple form h1 {
     color: white;
     line-height: 28px;
 }
@@ -16,7 +27,14 @@
 #heroHome Form p {
     margin-top: 10px;
     color: white;
-    font-style:normal;
+    font-style: normal;
+    line-height: 18px;
+}
+
+#heroSimple Form p {
+    margin-top: 10px;
+    color: white;
+    font-style: normal;
     line-height: 18px;
 }
 
@@ -32,4 +50,18 @@
 #btnMain:hover {
     color: white;
     background: rgb(95,128,200);
+}
+
+.alignVertical {
+    align-items: center;
+    justify-content: center;
+}
+
+.firstBreadcrumb {
+    color: white;
+    text-decoration: underline;
+}
+
+.firstBreadcrumb:hover{
+    color: white;
 }

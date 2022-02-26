@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+﻿import React, { Component } from 'react';
 import { Container } from 'reactstrap';
 import { Navbar, Nav, NavDropdown, Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
@@ -23,6 +23,10 @@ export class NavBar extends Component {
         });
     }
 
+    handleCalculator() {
+        window.location.href = "/calculator";
+    }
+
     render() {
         return (
 
@@ -43,10 +47,8 @@ export class NavBar extends Component {
                             <Nav.Link href="#">Clientes</Nav.Link>
                         </Nav>
                         <Form>
-                            <Button id="btnLogin" variant="outline-secondary">�rea do cliente</Button>
-                            <Link to="calculator">
-                                <Button variant="primary">COMPARAR PLANOS</Button>
-                            </Link>
+                            <Button id="btnLogin" className="mr-2" variant="outline-secondary">Área do cliente</Button>
+                            <Button variant="primary" onClick={ this.handleCalculator }>COMPARAR PLANOS</Button>
                         </Form>
                     </Navbar.Collapse>
                 </Container>

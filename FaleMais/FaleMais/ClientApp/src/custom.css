@@ -7,10 +7,14 @@ code {
   color: #E01A76;
 }
 
+.btn-calc{
+    width: 80%;
+}
+
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
 }
 
 .infoSection {
@@ -90,4 +94,49 @@ code {
     .imagesSection div+div {
         display: none;
     }
+}
+
+.descriptionSection {
+    padding-top: 15px;
+}
+
+.descriptionSection span {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(95,128,200);
+}
+
+.descriptionSection h2 {
+    font-size: 26px;
+    line-height: 28px;
+    margin-top: 5px;
+}
+
+.descriptionSection p + p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.parentDiv {
+    padding: 60px 10px 10px 10px;
+}
+
+.formSection {
+    padding-top: 15px;
+    border-left: 6px solid rgb(95,128,200);
+}
+
+.formSection h2 {
+    font-size: 26px;
+    line-height: 28px;
+    margin-top: 5px;
+}
+
+.custom-bar::after {
+    content: '';
+    display: block;
+    margin-left: 3px;
+    margin-top: 5px;
+    width: 17px;
+    border-bottom: 2px solid rgb(95,128,200);
 }
