@@ -11,22 +11,22 @@ namespace FaleMais.Util
 
         private static readonly CostRelation[] Summaries = new[]
         {
-            new CostRelation{ CodeOrigin = 11, CodeFate = 11, MinuteCost = 0 },
+            new CostRelation{ CodeOrigin = 11, CodeFate = 11, MinuteCost = 0.5 },
             new CostRelation{ CodeOrigin = 11, CodeFate = 16, MinuteCost = 1.9 },
             new CostRelation{ CodeOrigin = 11, CodeFate = 17, MinuteCost = 1.7 },
             new CostRelation{ CodeOrigin = 11, CodeFate = 18, MinuteCost = 0.9 },
             new CostRelation{ CodeOrigin = 16, CodeFate = 11, MinuteCost = 2.9 },
-            new CostRelation{ CodeOrigin = 16, CodeFate = 16, MinuteCost = 0 },
-            new CostRelation{ CodeOrigin = 16, CodeFate = 17, MinuteCost = 0 },
-            new CostRelation{ CodeOrigin = 16, CodeFate = 18, MinuteCost = 0 },
+            new CostRelation{ CodeOrigin = 16, CodeFate = 16, MinuteCost = 0.5 },
+            new CostRelation{ CodeOrigin = 16, CodeFate = 17, MinuteCost = 1.2 },
+            new CostRelation{ CodeOrigin = 16, CodeFate = 18, MinuteCost = 1.4 },
             new CostRelation{ CodeOrigin = 17, CodeFate = 11, MinuteCost = 2.7 },
-            new CostRelation{ CodeOrigin = 17, CodeFate = 16, MinuteCost = 0 },
-            new CostRelation{ CodeOrigin = 17, CodeFate = 17, MinuteCost = 0 },
-            new CostRelation{ CodeOrigin = 17, CodeFate = 18, MinuteCost = 0 },
-            new CostRelation{ CodeOrigin = 18, CodeFate = 11, MinuteCost = 1.9},
-            new CostRelation{ CodeOrigin = 18, CodeFate = 16, MinuteCost = 0 },
-            new CostRelation{ CodeOrigin = 18, CodeFate = 17, MinuteCost = 0 },
-            new CostRelation{ CodeOrigin = 18, CodeFate = 18, MinuteCost = 0 }
+            new CostRelation{ CodeOrigin = 17, CodeFate = 16, MinuteCost = 1.3 },
+            new CostRelation{ CodeOrigin = 17, CodeFate = 17, MinuteCost = 0.4 },
+            new CostRelation{ CodeOrigin = 17, CodeFate = 18, MinuteCost = 1.7 },
+            new CostRelation{ CodeOrigin = 18, CodeFate = 11, MinuteCost = 1.9 },
+            new CostRelation{ CodeOrigin = 18, CodeFate = 16, MinuteCost = 1.8 },
+            new CostRelation{ CodeOrigin = 18, CodeFate = 17, MinuteCost = 1.2 },
+            new CostRelation{ CodeOrigin = 18, CodeFate = 18, MinuteCost = 0.7 }
         };
 
         public double CostRelation(CostRelation costRelation)

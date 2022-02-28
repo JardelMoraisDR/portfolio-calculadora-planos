@@ -1,20 +1,21 @@
 ﻿a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
 }
 
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
+
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
 #navMenu, #navMenu__White {
@@ -27,18 +28,29 @@ html {
     box-shadow: none;
 }
 
-#navMenu a{
-    color: white;
+@media (max-width: 768px) {
+    #navMenu {
+        background-color: white;
+        box-shadow: 0 8px 6px -6px #54595F;
+    }
 }
 
-#navMenu a.dropdown-item {
-    color: #212529;
-}
 
-#navMenu #btnLogin {
-    color: white;
-    background: #6c757d;
-    border-color: #6c757d;
+@media (min-width: 768px) {
+    
+    #navMenu a {
+        color: white;
+    }
+
+    #navMenu a.dropdown-item {
+        color: #212529;
+    }
+
+    #navMenu #btnLogin {
+        color: white;
+        background: #6c757d;
+        border-color: #6c757d;
+    }
 }
 
 #navBrand {
