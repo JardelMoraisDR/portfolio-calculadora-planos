@@ -1,7 +1,6 @@
 ﻿import React, { Component } from 'react';
 import { Container } from 'reactstrap';
 import { Navbar, Nav, NavDropdown, Button, Form } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import './NavMenu.css';
 
 export class NavBar extends Component {
@@ -30,7 +29,7 @@ export class NavBar extends Component {
     render() {
         return (
 
-            <Navbar className="navbar-menu mb-3 mt-2" expand="lg">
+            <Navbar className="navbar-menu mb-3 mt-2" expand="md">
                 <Container>
                     <Navbar.Brand id="navBrand" href="#home">Fale<strong>Mais!</strong></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -140,3 +140,8 @@ code {
     width: 17px;
     border-bottom: 2px solid rgb(95,128,200);
 }
+
+.alignVertical {
+    align-items: center;
+    justify-content: center;
+}
