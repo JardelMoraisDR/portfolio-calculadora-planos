@@ -64,8 +64,13 @@ Dentro da pasta, rode o seguinte comando:
 Após rodar o comando, acesse o link abaixo em seu navegador:
 
 ```bash
-  http://localhost:5000
+  https://localhost:5000
 ```
+
+Caso apareça a mensagem "Sua conexão não é privada", clique em "Avançado" e depois em "Continue até localhost (não seguro)":
+
+![Logo](https://i.ibb.co/tsLRTRP/captura2340.png)
+
 
 Na tela inicial do sistema, clique em "Comparar Planos":
 
