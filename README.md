@@ -64,7 +64,7 @@ Dentro da pasta, rode o seguinte comando:
 Após rodar o comando, acesse o link abaixo em seu navegador:
 
 ```bash
-  https://localhost:5000
+  http://localhost:5000
 ```
 
 Caso apareça a mensagem "Sua conexão não é privada", clique em "Avançado" e depois em "Continue até localhost (não seguro)":
